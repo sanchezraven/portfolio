@@ -10,6 +10,7 @@
 
 .container{
     height: 100vh;
+    background-image: url(images/00000029446.jpg)
 }
 
 header{
@@ -86,5 +87,3 @@ section {
     color: #8c8c8c;
     margin-top: 40px;
 }
-
-
