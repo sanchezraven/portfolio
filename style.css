@@ -10,7 +10,7 @@
 
 .container{
     height: 100vh;
-    background-image: url(images/00000029446.jpg)
+    background-image: url(images/00000029446.jpg);
 }
 
 header{
@@ -86,4 +86,36 @@ section {
     font-size: 20px;
     color: #8c8c8c;
     margin-top: 40px;
+}
+
+
+
+@media screen and (min-width: 375px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+    .container{
+        background-size: 150vh;
+    }
+    .menu {
+        max-width: 100%;
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .contacts{
+        min-height: 80px;
+        padding-top: 40px;
+    }
+    .contacts p{
+        font-size: 26px;
+    }
+    a .fa-vk, a .fa-github {
+        font-size: 30px;
+    }
+    section {
+        margin-top: 90px;
+    }
+    .content {
+        width: 47%;
+    }
+    .content p{
+        font-size: 30px;
+    }
 }
