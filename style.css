@@ -1,0 +1,90 @@
+@font-face{
+	font-family: "Montserrat";
+	src:url('fonts/Montserrat.ttf');
+}
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container{
+    height: 100vh;
+}
+
+header{
+    min-height: 110px;
+}
+
+.contacts{
+    min-height: 40px;
+    background-color: black;
+    display: flex;
+    padding-top: 10px;
+}
+.contacts p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a .fa-vk, a .fa-github, .fa-phone-square-alt, .fa-envelope, .contacts p{
+    color: rgb(255, 255, 255);
+}
+a .fa-vk, a .fa-github{
+    font-size: 21px;
+}
+
+.menu {
+    max-width: 60%;
+    display: flex;
+    padding-top: 20px;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+.menu li{
+    list-style-type: none;
+    color: #555555;
+    font-weight: 600;
+}
+
+.menu li:hover{
+    color: #b87e14;
+    cursor: pointer;
+}
+
+
+section {
+    display: flex;
+    margin-top: 40px;
+}
+
+.before-content{
+    height: 560px;
+}
+
+.before-content img{
+    max-width: 100%;
+    height: auto;
+    max-height:100%;
+}
+
+.content{
+    width: 40%;
+}
+
+.About, .Exp, .Job, .Edu{
+    display: none;
+}
+
+.content h2{
+    font-family: "Montserrat";
+    color: #555555;
+}
+.content p{
+    font-family: "Raleway";
+    line-height: 1.5;
+    font-size: 20px;
+    color: #8c8c8c;
+    margin-top: 40px;
+}
+
+
